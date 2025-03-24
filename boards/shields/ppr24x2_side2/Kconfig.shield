@@ -1,0 +1,3 @@
+
+config SHIELD_PPR24X2_SIDE2
+    def_bool $(shields_list_contains,ppr24x2_side2)

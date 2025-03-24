@@ -1,0 +1,6 @@
+
+if SHIELD_PPR24X2_SIDE2
+config ZMK_KEYBOARD_NAME
+    default "ppr24x2_side2"
+
+endif

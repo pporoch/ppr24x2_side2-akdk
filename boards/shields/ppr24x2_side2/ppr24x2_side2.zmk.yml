@@ -1,0 +1,11 @@
+
+file_format: "1"
+id: ppr24x2_side2
+name: ppr24x2_side2
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
