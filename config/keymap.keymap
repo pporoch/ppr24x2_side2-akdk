@@ -24,10 +24,10 @@
 
         defualt_layer {
             bindings = <
-&kp ESC     &kp Q         &kp W         &kp E        &kp R        &kp T      &kp Y          &kp U        &kp I        &kp O         &kp P          &kp EQUAL
-&kp TAB     &kp A         &kp S         &kp D        &kp F        &kp G      &kp H          &kp J        &kp K        &kp L         &kp MINUS      &kp SINGLE_QUOTE
-&kp LSHIFT  &kp Z         &kp X         &kp C        &kp V        &kp B      &kp N          &kp M        &kp COMMA    &kp PERIOD    &kp SLASH      &kp SEMICOLON
-&kp LCTRL   &kp LEFT_ALT  &kp LEFT_ALT  &lt 5 SPACE  &lt 1 SPACE  &kp LCTRL  &kp BACKSPACE  &lt 2 ENTER  &lt 2 ENTER  &kp LEFT_WIN  &kp BACKSLASH  &kp DEL
+&kp ESC     &kp Q         &kp W         &kp E      &kp R        &kp T      &kp Y          &kp U        &kp I      &kp O         &kp P          &kp EQUAL
+&kp TAB     &kp A         &kp S         &kp D      &kp F        &kp G      &kp H          &kp J        &kp K      &kp L         &kp MINUS      &kp SINGLE_QUOTE
+&kp LSHIFT  &kp Z         &kp X         &kp C      &kp V        &kp B      &kp N          &kp M        &kp COMMA  &kp PERIOD    &kp SLASH      &kp SEMICOLON
+&kp LCTRL   &kp LEFT_ALT  &kp LEFT_ALT  &kp SPACE  &lt 1 SPACE  &kp LCTRL  &kp BACKSPACE  &lt 2 ENTER  &kp ENTER  &kp LEFT_WIN  &kp BACKSLASH  &kp DEL
             >;
         };
 
@@ -51,10 +51,10 @@
 
         layer_3 {
             bindings = <
-&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)      &bt BT_SEL 0           &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3         &bt BT_SEL 4   &kp EQUAL
-&kp TAB        &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)      &kp LS(HOME)           &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &kp MINUS      &kp SQT
-&kp LSHIFT     &kp F2            &kp F3            &kp F4            &kp F5            &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(END)         &kp COMMA           &kp PERIOD           &kp SLASH      &kp SEMICOLON
-&kp LCTRL      &kp LEFT_ALT      &kp LEFT_ALT      &trans            &trans            &kp LCTRL             &kp BACKSPACE          &kp ENTER           &trans              &trans               &kp BACKSLASH  &kp DEL
+&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)      &kp F7               &kt F8              &kp LS(UP_ARROW)    &kp F9               &kp F10        &kp EQUAL
+&kp TAB        &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)      &kp LS(HOME)         &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &kp MINUS      &kp SQT
+&kp LSHIFT     &brackets         &kp LS(F2)        &kp LS(F3)        &kp LS(F4)        &kp LS(F5)            &kp LS(F6)           &kp LS(END)         &kp COMMA           &kp PERIOD           &kp SLASH      &kp SEMICOLON
+&kp LCTRL      &kp LEFT_ALT      &kp LEFT_ALT      &trans            &trans            &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)  &kp ENTER           &trans              &trans               &kp BACKSLASH  &kp DEL
             >;
         };
 
