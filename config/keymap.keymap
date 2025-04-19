@@ -24,10 +24,10 @@
 
         defualt_layer {
             bindings = <
-&kp ESC     &kp Q         &kp W         &kp E      &kp R        &kp T      &kp Y          &kp U        &kp I        &kp O         &kp P          &kp EQUAL
-&kp TAB     &kp A         &kp S         &kp D      &kp F        &kp G      &kp H          &kp J        &kp K        &kp L         &kp MINUS      &kp SINGLE_QUOTE
-&kp LSHIFT  &kp Z         &kp X         &kp C      &kp V        &kp B      &kp N          &kp M        &kp COMMA    &kp PERIOD    &kp SLASH      &kp SEMICOLON
-&kp LCTRL   &kp LEFT_ALT  &kp LEFT_ALT  &kp SPACE  &lt 1 SPACE  &kp LCTRL  &kp BACKSPACE  &lt 2 ENTER  &lt 5 ENTER  &kp LEFT_WIN  &kp BACKSLASH  &kp DEL
+&kp ESC     &kp Q         &kp W         &kp E      &kp R        &kp T      &kp Y            &kp U        &kp I      &kp O         &kp P          &kp EQUAL
+&kp TAB     &kp A         &kp S         &kp D      &kp F        &kp G      &kp H            &kp J        &kp K      &kp L         &kp MINUS      &kp SINGLE_QUOTE
+&kp LSHIFT  &kp Z         &kp X         &kp C      &kp V        &kp B      &kp N            &kp M        &kp COMMA  &kp PERIOD    &kp SLASH      &kp SEMICOLON
+&kp LCTRL   &kp LEFT_ALT  &kp LEFT_ALT  &kp SPACE  &lt 1 SPACE  &kp LCTRL  &lt 5 BACKSPACE  &lt 2 ENTER  &kp ENTER  &kp LEFT_WIN  &kp BACKSLASH  &kp DEL
             >;
         };
 
@@ -69,10 +69,10 @@
 
         layer_5 {
             bindings = <
-&trans      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans      &trans        &trans        &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 0  &trans        &trans        &trans        &trans        &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
-&bt BT_CLR  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &bt BT_SEL 0  &bt BT_SEL 0  &trans        &trans        &trans        &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans
+&bt BT_CLR  &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans  &bt BT_CLR
             >;
         };
     };
